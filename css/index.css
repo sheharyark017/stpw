@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main: #846add;
+  --grey: #3e4d61;
+  --green: #39b38e;
+  --green2: #6ab7b7;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.header {
+  height: 100vh;
+  background: url(../images/avel-chuklanov-DUmFLtMeAbQ-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay {
+  background-color: rgb(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+}
+
+.top-section {
+  padding: 100px 25% 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-section .top-text {
+  color: #fff;
+  text-align: center;
+}
+
+.top-section .top-text p:nth-child(1) {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.top-section .top-text p:nth-child(2) {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.top-section .top-btn {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.top-section .top-btn a {
+  background-color: var(--green);
+  color: #fff;
+  border-radius: 99px;
+  padding: 10px 25px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* end top section */
+
+/* end header */
+
+/* offer */
+
+.offer {
+  margin-top: 50px;
+  padding: 0 15%;
+}
+
+.offer p {
+  margin-bottom: 5px;
+}
+
+.offer-top {
+  text-align: center;
+}
+
+.offer-top p:nth-child(1) {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--main);
+}
+
+.offer-top p:nth-child(2) {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--grey);
+}
+
+.offer img {
+  width: 100%;
+}
+
+/* end offer */
