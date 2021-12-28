@@ -5,9 +5,9 @@
 }
 
 :root {
-  --main: #d9cff8;
+  --main: #1d86a7;
   --grey: #3e4d61;
-  --green: #68d0b1;
+  --green: #39b38e;
   --green2: #6ab7b7;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .sticky {
-  background-color: rgb(240, 240, 240) !important;
+  background-color: rgb(235, 235, 235) !important;
   box-shadow: 0 0 10px 0 #acacac;
   position: fixed;
   width: 100%;
