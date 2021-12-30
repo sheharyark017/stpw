@@ -7,8 +7,13 @@ const navHeight = nav.getBoundingClientRect().height;
 const stickyNav = function (entries) {
   const [entry] = entries;
   // console.log(entry);
-  if (!entry.isIntersecting) nav.classList.add("sticky");
-  else nav.classList.remove("sticky");
+  if (!entry.isIntersecting) {
+    nav.classList.add("sticky");
+    nav.classList.remove("navbar-dark");
+  } else {
+    nav.classList.remove("sticky");
+    nav.classList.add("navbar-dark");
+  }
 };
 
 const headObserver = new IntersectionObserver(stickyNav, {
@@ -17,3 +22,4 @@ const headObserver = new IntersectionObserver(stickyNav, {
   rootMargin: `-${navHeight}px`,
 });
 headObserver.observe(topSection);
+("");

@@ -8,6 +8,7 @@
   --main: #1d86a7;
   --grey: #3e4d61;
   --green: #39b38e;
+  --lightGrey: #d4d4d4;
   --green2: #6ab7b7;
 }
 
@@ -187,7 +188,7 @@ a:hover {
 
 .swiper-slide {
   padding: 20px 5px;
-  background-color: #eeeeee !important;
+  background-color: #eee !important;
   border-radius: 5px;
 }
 
@@ -247,7 +248,7 @@ a:hover {
   color: var(--grey);
 }
 
-.swiper {
+.mySwiper {
   width: 100%;
   height: 100%;
 }
@@ -261,14 +262,6 @@ a:hover {
   background: #fff;
 
   /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
 }
 
 .swiper-slide img {
@@ -311,9 +304,6 @@ a:hover {
 
 .teachers-column {
   padding: 8px !important;
-}
-
-.teacher-cards {
 }
 
 .teacher-block {
@@ -364,7 +354,7 @@ a:hover {
 
 .teacher-btn a {
   color: #fff;
-  background: var(--main);
+  background: var(--green);
   font-size: 18px;
   font-weight: 600;
   padding: 10px 25px;
@@ -372,3 +362,297 @@ a:hover {
 }
 
 /* end teachers */
+
+/* numbers */
+
+.numbers {
+  background: #239fc5;
+  color: #fff;
+}
+
+.number-text-section-inner {
+  padding: 0 30px;
+}
+
+.numbers-top {
+  margin: 40px 0;
+}
+
+.numbers-top p:nth-child(1) {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.numbers-block {
+  padding: 0 !important;
+  display: flex;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.numbers-block p {
+  margin-bottom: 0;
+  letter-spacing: 1.1px;
+}
+.numbers-block i {
+  font-size: 50px;
+  margin-right: 25px;
+}
+
+.numbers-block .numbers-text p:nth-child(1) {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.numbers-block .numbers-text p:nth-child(2) {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.number-section {
+  padding: 0 !important;
+}
+
+.numbers-image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* end numbers */
+
+/* reviews */
+
+.reviews {
+  background-color: #e9eff4;
+  padding: 50px 0 30px;
+}
+
+.reviews-top {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+.reviews-top p:nth-child(1) {
+  font-size: 40px;
+  color: var(--grey);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.reviews-top p:nth-child(2) {
+  color: #727272;
+  font-size: 17px;
+}
+
+.mySwiper2 {
+  width: 100%;
+  padding: 25px 0;
+}
+
+.swiper-slide.review-slide {
+  background-color: #fff !important;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgb(175, 175, 175);
+  /* box-shadow: 0 0 10px 0 rgb(156, 156, 156); */
+  padding: 20px;
+}
+
+.review-block {
+  text-align: center;
+  background-color: #fff;
+}
+
+.review-text p {
+  font-style: italic;
+  color: #4e6585;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.review-separator {
+  height: 2px;
+  background-color: #112d5f9a;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.review-pic img {
+  width: 22%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.review-name p {
+  margin: 10px 0 0;
+  color: #777;
+  font-weight: 600;
+}
+/* end reviews */
+
+@media screen and (max-width: 980px) {
+  .header {
+    height: 100%;
+  }
+
+  .top-section {
+    padding: 50px 2% 0;
+  }
+
+  .top-section .top-text p:nth-child(1) {
+    font-size: 35px;
+  }
+
+  .top-section .top-text p:nth-child(2) {
+    font-size: 16px;
+  }
+
+  .top-section .top-btn {
+    text-align: center;
+    margin: 50px 0;
+  }
+
+  /* end top section */
+
+  /* end header */
+
+  /* offer */
+
+  .offer {
+    padding: 0 2%;
+  }
+
+  .offer-top p:nth-child(1) {
+    font-size: 18px;
+  }
+
+  .offer-top p:nth-child(2) {
+    font-size: 30px;
+  }
+
+  /* end offer */
+
+  /* post add */
+
+  .add {
+    margin-top: 50px;
+    padding: 10px;
+  }
+
+  .add-text-section {
+    margin-bottom: 40px;
+  }
+
+  .add-text-section p {
+    font-size: 24px;
+  }
+
+  .add-image-section {
+    margin-bottom: 20px;
+  }
+
+  /* end post add */
+
+  /* student add */
+
+  .student-add {
+    padding: 50px 10px;
+  }
+
+  .student-add-top {
+    margin-bottom: 0px;
+  }
+
+  .student-add-top p {
+    font-size: 30px;
+  }
+
+  /* end student add */
+
+  /* teachers */
+
+  .teachers {
+    padding: 60px 10px;
+  }
+
+  .teachers-top {
+    width: 100%;
+  }
+
+  .teachers-top p:nth-child(1) {
+    font-size: 17px;
+  }
+
+  .teachers-top p:nth-child(2) {
+    font-size: 32px;
+  }
+  .teachers-top p:nth-child(3) {
+    font-size: 17px;
+  }
+
+  .teacher-image {
+    width: 90%;
+  }
+
+  /* end teachers */
+
+  /* numbers */
+
+  .number-text-section-inner {
+    padding: 0 0px;
+  }
+
+  .numbers-top {
+    margin: 40px 10px;
+  }
+
+  .numbers-top p:nth-child(1) {
+    font-size: 30px;
+  }
+
+  .numbers-block {
+    margin-bottom: 40px;
+  }
+
+  .numbers-block p {
+    letter-spacing: 1px;
+  }
+  .numbers-block i {
+    font-size: 40px;
+    margin-right: 10px;
+  }
+
+  .numbers-block .numbers-text p:nth-child(1) {
+    font-size: 25px;
+  }
+
+  .numbers-block .numbers-text p:nth-child(2) {
+    font-size: 16px;
+  }
+
+  /* end numbers */
+
+  /* reviews */
+
+  .reviews {
+    padding: 50px 10px 30px;
+  }
+
+  .reviews-top {
+    width: 100%;
+  }
+
+  .reviews-top p:nth-child(1) {
+    font-size: 30px;
+  }
+
+  .reviews-top p:nth-child(2) {
+    font-size: 16px;
+  }
+}
