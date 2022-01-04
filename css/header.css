@@ -5,7 +5,7 @@
 }
 
 :root {
-  --main: #1d86a7;
+  --main: #0c416d;
   --grey: #3e4d61;
   --green: #39b38e;
   --lightGrey: #d4d4d4;
@@ -20,9 +20,15 @@
 }
 
 .sticky {
+  position: fixed;
   background-color: rgb(235, 235, 235) !important;
   box-shadow: 0 0 10px 0 #868686;
-  position: fixed;
+  width: 100%;
+}
+
+.lightbg {
+  background-color: rgb(235, 235, 235) !important;
+  box-shadow: 0 0 10px 0 #868686;
   width: 100%;
 }
 
@@ -32,7 +38,8 @@
   color: #fff !important;
 }
 
-.sticky .navbar-brand {
+.sticky .navbar-brand,
+.lightbg .navbar-brand {
   color: var(--main) !important;
 }
 
@@ -51,7 +58,7 @@
 }
 
 .search-btn:hover {
-  background-color: #156d88;
+  background-color: #093457;
 }
 
 .search-input {
@@ -79,7 +86,8 @@
   font-weight: 600;
   color: #fff !important;
 }
-.sticky .nav-link {
+.sticky .nav-link,
+.lightbg .nav-link {
   font-weight: 600;
   color: var(--grey) !important;
 }

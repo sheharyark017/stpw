@@ -5,7 +5,7 @@
 }
 
 :root {
-  --main: #1d86a7;
+  --main: #0c416d;
   --grey: #3e4d61;
   --lightGrey: #d4d4d4;
   --green: #39b38e;
@@ -16,6 +16,12 @@
   color: #fff;
   background: #0c416d;
   padding: 40px 60px 20px;
+}
+
+.footer-top-line {
+  height: 5px;
+  width: 100%;
+  background: var(--green);
 }
 
 .footer a {
