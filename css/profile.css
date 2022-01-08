@@ -76,6 +76,21 @@ a:hover {
   color: #585858;
 }
 
+.product-details-row .links {
+  min-width: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-details-row .links a {
+  color: #585858;
+  font-size: 17px;
+}
+
+.product-details-row .links a:hover {
+  color: var(--green);
+}
+
 .message-btn {
   text-align: center;
   margin-top: 10px;
