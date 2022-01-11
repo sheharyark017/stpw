@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main: #0c416d;
+  --grey: #3e4d61;
+  --green: #39b38e;
+  --lightGrey: #d4d4d4;
+  --green2: #6ab7b7;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.add-page {
+  padding: 50px 10%;
+}
+
+.add-page-top {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.add-page-top p {
+  font-size: 35px;
+  color: var(--main);
+  font-weight: 700;
+}
+
+.add {
+  padding: 40px;
+  background: #dceffc;
+  border-radius: 10px;
+}
+
+.add-details-top {
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.add-details-top p {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--main);
+}
+
+.add-detail {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.add-detail p:nth-child(1) {
+  min-width: 150px;
+  max-width: 210px;
+  margin-right: 15px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #363636;
+}
+
+.add-detail p:nth-child(2) {
+  font-size: 17px;
+  color: #585858;
+}
+
+.add-description {
+  margin-top: 30px;
+}
+
+.add-description p:nth-child(1) {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--main);
+}
+
+.add-button {
+  text-align: center;
+}
+
+.add-button {
+  margin: 20px 0 0;
+}
+
+.add-button button {
+  background: var(--green);
+  color: #fff;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 980px) {
+  .add-page {
+    padding: 30px 4%;
+  }
+
+  .add-page-top {
+    margin-bottom: 20px;
+  }
+
+  .add-page-top p {
+    font-size: 28px;
+  }
+
+  .add {
+    padding: 10px;
+  }
+
+  .add-details-top {
+    margin: 15px 0 10px;
+    padding: 0 0px;
+  }
+
+  .add-details-top p {
+    font-size: 19px;
+  }
+
+  .add-detail {
+    padding: 0 0px;
+  }
+
+  .add-detail p:nth-child(1) {
+    font-size: 16px;
+  }
+
+  .add-detail p:nth-child(2) {
+    font-size: 16px;
+  }
+
+  .add-description {
+    margin-top: 30px;
+  }
+
+  .add-description p:nth-child(1) {
+    font-size: 19px;
+  }
+
+  .add-button {
+    margin: 20px 0;
+  }
+}

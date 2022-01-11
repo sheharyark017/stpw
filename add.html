@@ -19,7 +19,7 @@
         rel="stylesheet">
 
     <!-- css file -->
-    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/add.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
 
@@ -36,7 +36,6 @@
 </head>
 
 <body>
-
     <!-- navbar -->
     <nav class="navbar lightbg navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
@@ -75,42 +74,66 @@
     </nav>
     <!-- navbar -->
 
-    <div class="signup-page">
+    <!-- add page -->
 
-        <!-- form -->
-
-        <div class="reg-form">
-            <div class="reg-top">
-                <p>SIGN UP</p>
-            </div>
-            <form>
-                <div class="form-inputs">
-                    <input type="text" placeholder="First Name">
-                    <input type="text" placeholder="Last Name">
-                    <input type="email" placeholder="Email">
-                    <select name="" id="">
-                        <option value="">Teacher</option>
-                        <option value="">Student</option>
-                    </select>
-                    <input type="password" placeholder="Password">
-                    <input type="password" placeholder="Retype Password">
-                </div>
-                <div class="flex-items">
-                    <div class="remember-me">
-                        <input type="checkbox" id="remember-me">
-                        <label for="remember-me">Remember me</label>
+    <div class="add-page">
+        <div class="add-page-top">
+            <p>Add details</p>
+        </div>
+        <div class="add">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="add-details-section col-md-6 col-12">
+                        <div class="add-details-top">
+                            <p>Add details</p>
+                        </div>
+                        <div class="add-detail">
+                            <p>Subject</p>
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="add-detail">
+                            <p>price</p>
+                            <p>200$</p>
+                        </div>
+                    </div>
+                    <div class="profile-detail-section col-md-6 col-12">
+                        <div class="add-details-top">
+                            <p>Student details</p>
+                        </div>
+                        <div class="add-detail">
+                            <p>Name</p>
+                            <p>Jacob Wood</p>
+                        </div>
+                        <div class="add-detail">
+                            <p>Age</p>
+                            <p>24</p>
+                        </div>
+                        <div class="add-detail secret-detail">
+                            <p>Phone Number</p>
+                            <p style="filter: blur(4px)">090078601</p>
+                        </div>
+                        <div class="add-detail secret-detail">
+                            <p>Email</p>
+                            <p style="filter: blur(4px)">jacobwood@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="add-description">
+                        <p>Add Description</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum neque, illum ipsam nihil,
+                            consequatur molestiae natus quam illo mollitia, fuga sit expedita cum velit quos eligendi
+                            dolore
+                            debitis. Sed, reiciendis.</p>
+                    </div>
+                    <div class="add-button">
+                        <button>Contact <i class="fas fa-paper-plane"></i></button>
                     </div>
                 </div>
+            </div>
 
-                <div class="form-btn">
-                    <button>SIGN IN</button>
-                </div>
-            </form>
         </div>
-
-        <!-- form -->
-
     </div>
+
+    <!-- end add page -->
 
     <!-- footer -->
     <div class="footer-top-line"></div>
@@ -173,6 +196,7 @@
     </div>
 
     <!-- end footer -->
+
 </body>
 
 </html>
