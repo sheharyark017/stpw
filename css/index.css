@@ -310,7 +310,11 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 10px;
+  /* border: 1px solid #a3a3a3; */
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px 0 rgb(185, 185, 185);
 }
 
 .teacher-block p {
@@ -320,7 +324,7 @@ a:hover {
 .teacher-image {
   margin-right: 5px;
   text-align: center;
-  width: 100%;
+  width: 35%;
 }
 
 .teacher-image img {
@@ -328,12 +332,22 @@ a:hover {
   aspect-ratio: 1;
   object-fit: cover;
   border-radius: 50%;
+  cursor: pointer;
 }
 
-.teacher-information p:nth-child(1) {
-  color: var(--grey);
+.teacher-information {
+  width: 65%;
+}
+.teacher-information a {
+  color: var(--grey) !important;
   font-size: 21px;
   font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+.teacher-information a:hover {
+  color: var(--green) !important;
 }
 
 .teacher-information p:nth-child(2) {

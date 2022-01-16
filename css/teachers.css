@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main: #0c416d;
+  --grey: #3e4d61;
+  --green: #39b38e;
+  --lightGrey: #d4d4d4;
+  --green2: #6ab7b7;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.teachers {
+  margin: 50px 80px;
+}
+
+.teachers-top {
+  text-align: center;
+}
+
+.teachers-top p {
+  color: var(--main);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.dropdown {
+  text-align: right;
+}
+
+.btn-secondary {
+  margin-right: 40px;
+  padding: 8px 40px;
+  background: #ffffff;
+  color: #3e4d61;
+  border-color: #acacac;
+  box-shadow: 3px 3px 3px 0 #949494;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.btn-secondary:hover {
+  background: #f3f3f3;
+  color: #3e4d61;
+  border-color: #acacac;
+  box-shadow: 3px 3px 3px 0 #949494;
+}
+
+.btn-secondary:focus {
+  background: #f3f3f3;
+  color: #3e4d61;
+  border-color: #acacac;
+  box-shadow: 3px 3px 3px 0 #949494 !important;
+  outline: none !important;
+}
+
+.all-teachers {
+  margin-top: 20px;
+}
+
+.teachers-block-section {
+  padding: 9px;
+}
+
+.teacher-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  /* border: 1px solid #a3a3a3; */
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px 0 rgb(185, 185, 185);
+}
+
+.teacher-block p {
+  margin-bottom: 2px;
+}
+
+.teacher-image {
+  margin-right: 5px;
+  text-align: center;
+  width: 35%;
+}
+
+.teacher-image img {
+  width: 90%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.teacher-information {
+  width: 65%;
+}
+.teacher-information a {
+  color: var(--grey) !important;
+  font-size: 21px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+.teacher-information a:hover {
+  color: var(--green) !important;
+}
+
+.teacher-information p:nth-child(2) {
+  color: var(--main);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.teacher-information p:nth-child(3) {
+  color: #555555;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 980px) {
+  .teachers {
+    margin: 30px 10px;
+  }
+
+  .teachers-top {
+    text-align: center;
+  }
+
+  .teachers-top p {
+    font-size: 30px;
+  }
+
+  .btn-secondary {
+    margin-right: 20px;
+    padding: 5px 20px;
+    font-size: 16px;
+  }
+
+  .all-teachers {
+    margin-top: 10px;
+  }
+
+  .teacher-block {
+    margin-top: 5px;
+  }
+
+  .teachers-block-section {
+    padding: 9px;
+  }
+
+  .teacher-information a {
+    font-size: 20px;
+  }
+
+  .teacher-information p:nth-child(2) {
+    font-size: 15px;
+  }
+
+  .teacher-information p:nth-child(3) {
+    font-size: 14px;
+  }
+}
