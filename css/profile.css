@@ -26,6 +26,8 @@ a:hover {
 
 .profile-top {
   margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .porfile-name p:nth-child(1) {
@@ -39,6 +41,62 @@ a:hover {
   font-size: 20px;
   font-weight: 700;
   color: var(--green);
+}
+
+.notifications .dropdown button {
+  background-color: var(--main) !important;
+}
+
+.notifications .dropdown button {
+  outline: none;
+  box-shadow: none;
+}
+
+.notifications .dropdown button span {
+  display: inline-block;
+  background-color: red;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: -12px;
+  right: -12px;
+}
+
+.notifications .dropdown .dropdown-menu {
+  padding: 0;
+  box-shadow: 0 0 10px 0 #929292;
+  max-height: 300px !important;
+  overflow-y: scroll;
+  overflow-x: initial;
+  word-wrap: break-word;
+  width: 300px;
+}
+
+.mark-read {
+  text-align: right;
+  margin: 5px;
+}
+
+.mark-read a {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.notifications .dropdown .dropdown-menu li {
+  border-bottom: 1px solid #c4c4c4;
+  word-wrap: break-word;
+}
+
+.notifications .dropdown .dropdown-menu li a {
+  font-weight: 500;
+  color: #525252;
+  white-space: inherit;
+  padding-top: 10px;
+}
+
+.notifications .dropdown .dropdown-menu li a:active {
+  background-color: #b1b1b1;
 }
 
 .profile-middle > .container-fluid {

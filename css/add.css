@@ -35,10 +35,22 @@ a:hover {
   font-weight: 700;
 }
 
-.add {
+.add,
+.notification {
   padding: 40px;
   background: #dceffc;
   border-radius: 10px;
+}
+
+.notification p:nth-child(1) {
+  color: var(--main);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.notification p:nth-child(2) {
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .add-details-top {
@@ -113,7 +125,8 @@ a:hover {
     font-size: 28px;
   }
 
-  .add {
+  .add,
+  .notification {
     padding: 10px;
   }
 
