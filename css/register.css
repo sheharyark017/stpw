@@ -30,6 +30,9 @@ a:hover {
 .reg-form {
   margin: 60px auto;
   width: 35%;
+}
+
+.reg-top {
   text-align: center;
 }
 
@@ -43,17 +46,34 @@ a:hover {
   margin-bottom: 20px;
 }
 
-.form-inputs input,
+.input-control {
+  margin-bottom: 15px;
+}
+
+.form-inputs input[type="text"],
+.form-inputs input[type="email"],
+.form-inputs input[type="password"],
+.form-inputs input[type="texter"],
 .form-inputs select {
   width: 100%;
   border-radius: 6px;
   border: none;
-  margin-top: 20px;
   /* box-shadow: 0 0 6px 0 #858585; */
   border: 1px solid #bebebe;
   height: 45px;
   padding: 10px;
   transition: 0.3s all linear;
+}
+
+.form-inputs label {
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form-check label {
+  font-size: initial;
+  font-weight: initial;
 }
 
 .form-inputs input:focus,
@@ -66,7 +86,7 @@ a:hover {
 .flex-items {
   display: flex;
   justify-content: space-between;
-  margin: 25px 0 35px;
+  margin: 0px 0 35px;
   padding: 0 10px;
 }
 
