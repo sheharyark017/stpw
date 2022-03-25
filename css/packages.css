@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main: #0c416d;
+  --grey: #3e4d61;
+  --green: #39b38e;
+  --lightGrey: #d4d4d4;
+  --green2: #6ab7b7;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-wrapper {
+  margin-bottom: 50px;
+}
+
+.swiper-slide {
+  text-align: center;
+  background: #fff;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.coin-packages {
+  padding: 20px 100px;
+  text-align: center;
+}
+
+.coin-packages-top p {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--main);
+  margin-bottom: 40px;
+}
+
+.coin-package {
+  padding: 25px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 #888888;
+}
+
+.coin-package-text p:nth-child(1) {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.coin-package-text p:nth-child(2) {
+  color: #555555;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.coin-package button {
+  background-color: var(--green);
+  padding: 5px 30px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+.subscription-packages {
+  padding: 20px 100px;
+  text-align: center;
+}
+
+.subscription-packages-top p {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--main);
+  margin-bottom: 40px;
+}
+
+.subscription-package {
+  padding: 0px 0px 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 #888888;
+  margin-bottom: 40px;
+}
+
+.package-name {
+  font-size: 22px;
+  font-weight: 700;
+  background-color: #eeeeee;
+  padding: 10px;
+}
+
+.subscription-package-text p {
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.subscription-package-text p span {
+  font-weight: 700;
+}
+
+.subscription-features ul {
+  margin: 0;
+  padding: 0;
+  margin: 30px;
+}
+
+.subscription-features li {
+  list-style: none;
+  margin: 0;
+  color: #555555;
+}
+
+.subscription-package button {
+  background-color: var(--green);
+  padding: 5px 30px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 980px) {
+  .coin-packages {
+    padding: 40px 10px;
+  }
+
+  .coin-packages-top p {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .coin-package {
+    padding: 15px 10px;
+  }
+
+  .subscription-packages {
+    padding: 10px 30px;
+  }
+
+  .subscription-packages-top p {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+
+  .subscription-package {
+    padding: 0px 0px 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 #888888;
+  }
+}
