@@ -215,6 +215,18 @@ a:hover {
   color: var(--green);
 }
 
+.student-add .add-subjects {
+  margin: 2px 0;
+}
+
+.student-add .add-subjects span {
+  font-size: 15px;
+  color: #3e4d61;
+  border: 1px solid #4e6585;
+  border-radius: 3px;
+  padding: 2px 7px;
+}
+
 .student-add .description {
   color: var(--grey);
 }
@@ -234,6 +246,11 @@ a:hover {
 
 .student-add-button a:hover {
   width: 100%;
+}
+
+.student-add-profile-link {
+  display: flex;
+  justify-content: space-between;
 }
 
 .student-add-profile-link p {
