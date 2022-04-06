@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main: #0c416d;
+  --grey: #3e4d61;
+  --green: #39b38e;
+  --lightGrey: #d4d4d4;
+  --green2: #6ab7b7;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.aboutus {
+  padding: 40px 60px 0;
+}
+
+.aboutus-top {
+  text-align: center;
+}
+
+.aboutus-top p {
+  font-size: 35px;
+  color: var(--main);
+  font-weight: 700;
+}
+
+.aboutus-text {
+  color: #757575;
+  font-size: 18px;
+}
+
+.our-team {
+  padding: 40px 60px;
+}
+
+.our-team-top {
+  text-align: center;
+}
+
+.our-team-top p {
+  font-size: 35px;
+  font-weight: 700;
+  color: var(--main);
+}
+
+.our-team-profile {
+  padding: 30px;
+  text-align: center;
+}
+
+.our-team-profile .image img {
+  width: 200px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 5px 0 #696969;
+  margin-bottom: 20px;
+}
+
+.our-team-profile .text p:nth-child(1) {
+  color: var(--main);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.our-team-profile .text p:nth-child(2) {
+  color: var(--green);
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 980px) {
+  .aboutus {
+    padding: 30px 20px 0;
+  }
+
+  .aboutus-top p {
+    font-size: 32px;
+  }
+
+  .aboutus-text {
+    font-size: 16px;
+  }
+
+  .our-team {
+    padding: 30px 10px;
+  }
+
+  .our-team-top p {
+    font-size: 32px;
+  }
+
+  .our-team-profile {
+    padding: 20px;
+  }
+
+  .our-team-profile .image img {
+    width: 140px;
+  }
+
+  .our-team-profile .text p:nth-child(1) {
+    font-size: 18px;
+  }
+
+  .our-team-profile .text p:nth-child(2) {
+    font-size: 17px;
+  }
+}
