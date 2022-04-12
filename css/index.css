@@ -453,6 +453,27 @@ a:hover {
 
 /* end numbers */
 
+/* faq */
+
+.faq {
+  padding: 80px 100px 40px;
+}
+
+.faq-top {
+  margin: 0px auto 50px;
+  width: 73%;
+  text-align: center;
+}
+
+.faq-top p:nth-child(1) {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--grey);
+  margin-bottom: 0;
+}
+
+/* end faq */
+
 /* reviews */
 
 .reviews {
@@ -668,6 +689,24 @@ a:hover {
   }
 
   /* end numbers */
+
+  .faq {
+    padding: 80px 10px 40px;
+  }
+
+  .faq-top {
+    width: 90%;
+  }
+
+  .faq-top p:nth-child(1) {
+    font-size: 30px;
+  }
+
+  .question .a {
+    margin-bottom: 50px;
+  }
+
+  /* end faq */
 
   /* reviews */
 
