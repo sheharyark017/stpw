@@ -34,6 +34,47 @@ a:hover {
   font-weight: 700;
 }
 
+/* filters */
+
+.filters {
+  padding: 20px 0;
+}
+
+.filters input,
+.filters select {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #8d8d8d;
+  border-radius: 4px;
+  padding: 0 10px;
+}
+
+.filters input:focus,
+.filters select:focus {
+  outline: none;
+  border: none;
+  box-shadow: inset 0 0 5px 0 #383838;
+}
+
+.filter-btn {
+  text-align: right;
+  padding-right: 20px;
+  margin-top: 16px;
+}
+
+.filter-btn button {
+  padding: 9px 30px;
+  border: none;
+  font-weight: 600;
+  border-radius: 3px;
+  color: #fff;
+  background-color: var(--green);
+}
+
+.dropdown-menu {
+  width: 100%;
+}
+
 .dropdown {
   text-align: right;
 }
@@ -43,6 +84,7 @@ a:hover {
   padding: 8px 40px;
   background: #ffffff;
   color: #3e4d61;
+  height: 40px;
   border-color: #acacac;
   box-shadow: 3px 3px 3px 0 #949494;
   font-weight: 700;
